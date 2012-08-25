@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB8DA7E15E85E54001C75C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8DA7D15E85E54001C75C4 /* Cocoa.framework */; };
+		ABB8DA8815E85E54001C75C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABB8DA8615E85E54001C75C4 /* InfoPlist.strings */; };
+		ABB8DA8A15E85E54001C75C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB8DA8915E85E54001C75C4 /* main.m */; };
+		ABB8DA8E15E85E54001C75C4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ABB8DA8C15E85E54001C75C4 /* Credits.rtf */; };
+		ABB8DA9115E85E54001C75C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB8DA9015E85E54001C75C4 /* AppDelegate.m */; };
+		ABB8DA9415E85E54001C75C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB8DA9215E85E54001C75C4 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABB8DA7915E85E54001C75C4 /* Robotics Network Config.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robotics Network Config.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB8DA7D15E85E54001C75C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ABB8DA8015E85E54001C75C4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ABB8DA8115E85E54001C75C4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABB8DA8215E85E54001C75C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABB8DA8515E85E54001C75C4 /* Robotics Network Config-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Robotics Network Config-Info.plist"; sourceTree = "<group>"; };
+		ABB8DA8715E85E54001C75C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABB8DA8915E85E54001C75C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB8DA8B15E85E54001C75C4 /* Robotics Network Config-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Robotics Network Config-Prefix.pch"; sourceTree = "<group>"; };
+		ABB8DA8D15E85E54001C75C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ABB8DA8F15E85E54001C75C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABB8DA9015E85E54001C75C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABB8DA9315E85E54001C75C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB8DA7615E85E54001C75C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8DA7E15E85E54001C75C4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB8DA6E15E85E54001C75C4 = {
+			isa = PBXGroup;
+			children = (
+				ABB8DA8315E85E54001C75C4 /* Robotics Network Config */,
+				ABB8DA7C15E85E54001C75C4 /* Frameworks */,
+				ABB8DA7A15E85E54001C75C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB8DA7A15E85E54001C75C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8DA7915E85E54001C75C4 /* Robotics Network Config.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB8DA7C15E85E54001C75C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8DA7D15E85E54001C75C4 /* Cocoa.framework */,
+				ABB8DA7F15E85E54001C75C4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABB8DA7F15E85E54001C75C4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8DA8015E85E54001C75C4 /* AppKit.framework */,
+				ABB8DA8115E85E54001C75C4 /* CoreData.framework */,
+				ABB8DA8215E85E54001C75C4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ABB8DA8315E85E54001C75C4 /* Robotics Network Config */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8DA8F15E85E54001C75C4 /* AppDelegate.h */,
+				ABB8DA9015E85E54001C75C4 /* AppDelegate.m */,
+				ABB8DA9215E85E54001C75C4 /* MainMenu.xib */,
+				ABB8DA8415E85E54001C75C4 /* Supporting Files */,
+			);
+			path = "Robotics Network Config";
+			sourceTree = "<group>";
+		};
+		ABB8DA8415E85E54001C75C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8DA8515E85E54001C75C4 /* Robotics Network Config-Info.plist */,
+				ABB8DA8615E85E54001C75C4 /* InfoPlist.strings */,
+				ABB8DA8915E85E54001C75C4 /* main.m */,
+				ABB8DA8B15E85E54001C75C4 /* Robotics Network Config-Prefix.pch */,
+				ABB8DA8C15E85E54001C75C4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB8DA7815E85E54001C75C4 /* Robotics Network Config */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB8DA9715E85E54001C75C4 /* Build configuration list for PBXNativeTarget "Robotics Network Config" */;
+			buildPhases = (
+				ABB8DA7515E85E54001C75C4 /* Sources */,
+				ABB8DA7615E85E54001C75C4 /* Frameworks */,
+				ABB8DA7715E85E54001C75C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Robotics Network Config";
+			productName = "Robotics Network Config";
+			productReference = ABB8DA7915E85E54001C75C4 /* Robotics Network Config.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB8DA7015E85E54001C75C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "FRC Team 751";
+			};
+			buildConfigurationList = ABB8DA7315E85E54001C75C4 /* Build configuration list for PBXProject "Robotics Network Config" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABB8DA6E15E85E54001C75C4;
+			productRefGroup = ABB8DA7A15E85E54001C75C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB8DA7815E85E54001C75C4 /* Robotics Network Config */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB8DA7715E85E54001C75C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8DA8815E85E54001C75C4 /* InfoPlist.strings in Resources */,
+				ABB8DA8E15E85E54001C75C4 /* Credits.rtf in Resources */,
+				ABB8DA9415E85E54001C75C4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB8DA7515E85E54001C75C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8DA8A15E85E54001C75C4 /* main.m in Sources */,
+				ABB8DA9115E85E54001C75C4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABB8DA8615E85E54001C75C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB8DA8715E85E54001C75C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABB8DA8C15E85E54001C75C4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB8DA8D15E85E54001C75C4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ABB8DA9215E85E54001C75C4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB8DA9315E85E54001C75C4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB8DA9515E85E54001C75C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABB8DA9615E85E54001C75C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABB8DA9815E85E54001C75C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Robotics Network Config/Robotics Network Config-Prefix.pch";
+				INFOPLIST_FILE = "Robotics Network Config/Robotics Network Config-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABB8DA9915E85E54001C75C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Robotics Network Config/Robotics Network Config-Prefix.pch";
+				INFOPLIST_FILE = "Robotics Network Config/Robotics Network Config-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB8DA7315E85E54001C75C4 /* Build configuration list for PBXProject "Robotics Network Config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB8DA9515E85E54001C75C4 /* Debug */,
+				ABB8DA9615E85E54001C75C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB8DA9715E85E54001C75C4 /* Build configuration list for PBXNativeTarget "Robotics Network Config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB8DA9815E85E54001C75C4 /* Debug */,
+				ABB8DA9915E85E54001C75C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB8DA7015E85E54001C75C4 /* Project object */;
+}
