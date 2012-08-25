@@ -293,6 +293,7 @@
 				ABB8DA9915E85E54001C75C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

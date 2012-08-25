@@ -13,7 +13,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     [self setStatusItem:[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength]];
-    [[self statusItem] setTitle:@"Cake!"];
+    [[self statusItem] setTitle:@"FRC"];
     [[self statusItem] setMenu:[self confMenu]];
     [[self statusItem] setHighlightMode:YES];
     
