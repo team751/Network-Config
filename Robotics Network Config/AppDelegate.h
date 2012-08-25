@@ -8,8 +8,19 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    
+}
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSMenu *confMenu;
+
+@property (assign) IBOutlet NSWindow *preferencesWindow;
+@property (assign) IBOutlet NSTextField *teamNumberField;
+
+@property (strong) NSStatusItem *statusItem;
+
+-(IBAction) configRobotics:(id)sender;
+
+-(IBAction) configDefault:(id)sender;
 
 @end
